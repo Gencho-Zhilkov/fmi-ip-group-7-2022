@@ -23,7 +23,6 @@ int main() {
 	int day, month, year;
 	std::cout << "Enter date: ";
 	std::cin >> day >> month >> year;
-	std::cout << day << ' ' << month << ' ' << year << std::endl;
 
 	if (month < 1 || month > 12) {
 		std::cerr << "Wrong month: must be between 1 and 12." << std::endl;

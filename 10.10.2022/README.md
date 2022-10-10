@@ -1,56 +1,14 @@
 # Упражнение 1
----
+
 
 ## [Архитектура на фон Нойман (von Neuman)](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 
 ![Архитектура на фон Нойман](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1200px-Von_Neumann_Architecture.svg.png)
 
 
-## [Входно-изходни потоци](https://en.cppreference.com/w/cpp/header/iostream)
-
-```cpp
-#include <iostream>
-```
-
-- Стандартен вход (клавиатура)
-```cpp
-int foo;
-std::cin >> foo;
-```
-
-- Стандартен изход (терминал)
-```cpp
-std::cout << "Hello World!" << std::endl;
-```
-
-- Стандартен изход за грешки (терминал)
-```cpp
-std::cerr << "Oups: something went wrong!" << std::endl;
-```
-
-## [Променливи](https://en.cppreference.com/book/intro/variables)
-```cpp
-bool a = true, b = false;
-int i = 42;
-float g = 9.8;
-const double pi = 3.14;
-```
-
-
-
-## [Функцията `main`](https://en.cppreference.com/w/cpp/language/main_function)
-
-```cpp
-int main() {
-	/* Insert code here ... */
-	return 0;
-}
-```
-
 ## Задачи
----
 
-### Лесни
+#### По-лесни:
 1. Напишете програма, която чете две цели числа и отпечатва по-голямото от тях.
 
 2. Напишете програма, която чете две цели числа и отпечатва тяхното средно-аритметично.
@@ -61,9 +19,8 @@ int main() {
 
 5. Напишете програма, която чете цяло число `n` и отпечатва сбора на целите числа от `1` до `n`.
 
-### Малко по-трудни
+
+#### Малко по-трудни:
 1. Напишете програма, която прочита три числа: ден от месеца, месец и годин и връща броя на дните от началото на годината до съответната дата.
 
 2. Напишете програма, която прочита две числа: ден от началото на годината и година и връща съответстващата на деня дата (ден от месеца, месец, година).
-
-3. Напишете програма, която прочита число и го изписва в двоична бройна система.
