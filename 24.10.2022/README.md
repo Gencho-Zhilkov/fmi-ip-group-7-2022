@@ -3,6 +3,18 @@
 ### Въпроси: Какъв е резултата от изпълнението на следните фрагменти код?
 
 ```cpp
+int main() {
+	std::cout << "foo" << std::endl;
+}
+```
+
+```cpp
+void main() {
+	std::cout << "foo" << std::endl;
+}
+```
+
+```cpp
 int x = -7;
 unsigned int y = x;
 std::cout << x << std::endl;
@@ -15,18 +27,6 @@ if (c = 7) {
 	int d = (c += 7) + (++ c);
 	std::cout << c << std::endl;
 	std::cout << d << std::endl;
-}
-```
-
-```cpp
-int main() {
-	std::cout << "foo" << std::endl;
-}
-```
-
-```cpp
-void main() {
-	std::cout << "foo" << std::endl;
 }
 ```
 
