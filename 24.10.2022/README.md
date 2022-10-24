@@ -99,7 +99,7 @@ double pow(const double x, const int n) {
 
 6. [Вавилонски метод за корен квадратен](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method): напишете функция, която приема положителни числа $x$ и $\epsilon$ и пресмята $\sqrt{x}$ посредством следната редица от приближения:
 * $x_0 = x$
-* $x{n+1} = 1/2 * (x_n + x / x_n)$, докато $|x_{n+1} - x_n| \ge \epsilon$
+* $x_{n+1} = 1/2 * (x_n + x / x_n)$, докато $|x_{n+1} - x_n| \ge \epsilon$
 
 
 ## Домашно:
