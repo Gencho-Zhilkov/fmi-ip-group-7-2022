@@ -34,7 +34,7 @@ if (c = 7) {
 
 ```cpp
 int c = 5;
-int d = (c += 7) + ++c;
+int d = c++ + ++c;
 std::cout << c << std::endl;
 std::cout << d << std::endl;
 ```
