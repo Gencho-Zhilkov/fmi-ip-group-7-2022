@@ -34,14 +34,14 @@ void main() {
 ### [`const`](https://www.geeksforgeeks.org/const-keyword-in-cpp/) или как да си го направим _малко_ по-трудно да се застреляме в крака.
 ```cpp
 int foo = 5;
-foo += 7; 			// ok - foo is now 12
+foo += 7;            // ok - foo is now 12
 
 const int bar = 5;
 
-if (bar = 7) { }    // compile time error: bar is const!
+if (bar = 7) { ... } // compile time error: bar is const!
 
-bar += 7; 			// compile time error: bar is const!
-int baz = bar + 7;	// ok - baz = 12
+bar += 7;            // compile time error: bar is const!
+int baz = bar + 7;   // ok - baz = 12
 ```
 
 
