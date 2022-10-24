@@ -24,10 +24,19 @@ std::cout << y << std::endl;
 ```cpp
 int c = 5;
 if (c = 7) {
-	int d = (c += 7) + (++ c);
+	int d = 3 + c++;
+	int e = ++d + 1;
 	std::cout << c << std::endl;
 	std::cout << d << std::endl;
+	std::cout << e << std::endl;
 }
+```
+
+```cpp
+int c = 5;
+int d = (c += 7) + ++c;
+std::cout << c << std::endl;
+std::cout << d << std::endl;
 ```
 
 
