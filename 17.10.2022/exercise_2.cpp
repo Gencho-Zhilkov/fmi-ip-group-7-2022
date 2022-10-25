@@ -5,7 +5,7 @@ int main() {
 	int n;
 	std::cin >> n;
 
-	int maxDigit = -1;
+	int maxDigit = 0;
 	while (n > 0) {
 		const int lastDigit = n % 10;
 		if (lastDigit > maxDigit) {
