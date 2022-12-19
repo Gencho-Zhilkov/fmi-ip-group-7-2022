@@ -65,5 +65,5 @@
 8. Напишете функция, която приема символен низ и връща най-голямото число, което се съдържа в низа.
 
 _Примери_:
-"Alexander was born in 336 BC and died at the age of 32." => 336
-"The Earth is 4.5 billon years old." => 4.5
+- "Alexander was born in 336 BC and died at the age of 32." => 336
+- "The Earth is 4.5 billon years old." => 4.5
